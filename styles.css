@@ -1,2 +1,18 @@
+.item{
+	height:100px;
+	width:100px;
+	/* background-color:red; */
+}
+.item:nth-child(odd) {
+  background-color: red; /* This will add a background color to odd numbered items */
+}
 
-/* Your CSS Code here. */
+.item:nth-child(even) {
+  background-color: green; /* This will add a background color to even numbered items */
+}
+.holder{
+	display:flex;
+	gap:4px;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
